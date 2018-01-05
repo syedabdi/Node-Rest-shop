@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Product = require('../models/products');
+const Product = require('../models/product');
 const Moongoose = require('mongoose');
 
 router.get('/',(req,res,next)=>{
